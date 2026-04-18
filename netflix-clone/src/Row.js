@@ -6,7 +6,7 @@ const base_url = "https://image.tmdb.org/t/p/";
 
 function Row({ title, fetchUrl, isLargeRow, onMovieClick }) {
   const [movies, setMovies] = useState([]);
-  const API_KEY = "03bca0445af66966a09681ad2543953f";
+  const API_KEY = "b5f088d92614e6566e5926665022c7c2";
 
   useEffect(() => {
     async function fetchData() {
